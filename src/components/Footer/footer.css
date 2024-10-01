@@ -1,0 +1,39 @@
+.footer-container {
+    position: relative;
+}
+.footer-container > hr {
+    border: 1px solid var(--lightgray);
+}
+
+.footer {
+    padding: 1rem 2rem;
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+}
+.blur-footer-first {
+    width: 26rem;
+    height: 12rem;
+    right: 15%;
+    bottom: 0;
+    background: red;
+    filter: blur(200px);
+}
+
+.social-links {
+    display: flex;
+    gap: 4rem;
+}
+.social-links > img {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+.social-links > img:hover {
+    transform: scale(1.2);
+}
+.logo-f > img {
+    width: 10rem;
+}
